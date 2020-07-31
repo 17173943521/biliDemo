@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "Like";
+}
+
+
+@* 个人中心 - 关注 *@
+<div class="row justify-content-center">
+    <div class="col-8">
+        @Html.Partial("_head")
+
+        <br />
+        <br />
+        <div class="row ">
+            <div class="col-3 ">
+                <div class="nav flex-column nav-pills card" id="v-pills-tab" list="" role="tablist" aria-orientation="vertical">
+                    <div>
+                        <a style="font-size:25px;margin-left:20px;">我的关注</a>
+                        <a class="float-right" href="#"><i class="iconfont icon-tianjia" style="font-size:25px;"></i></a>
+                    </div>
+                    <hr />
+                    <a class="nav-link active" id="v-pills-all-tab" data-toggle="pill" href="#v-pills-all" role="tab" aria-controls="v-pills-all" aria-selected="true">
+                        <i class="iconfont icon-gzwomentuandui"></i>
+                        全部关注
+                    </a>
+                    <a class="nav-link" id="v-pills-veryLike-tab" data-toggle="pill" href="#v-pills-veryLike" role="tab" aria-controls="v-pills-veryLike" aria-selected="false">
+                        <i class="iconfont icon-gzguanzhu"></i>
+                        特别关心
+                    </a>
+                    <a class="nav-link" id="v-pills-secretly-tab" data-toggle="pill" href="#v-pills-secretly" role="tab" aria-controls="v-pills-secretly" aria-selected="false">
+                        <i class="iconfont icon-gzbiyan"></i>
+                        悄悄关注
+                    </a>
+                    <a class="nav-link" id="v-pills-default-tab" data-toggle="pill" href="#v-pills-default" role="tab" aria-controls="v-pills-default" aria-selected="false">
+                        <i class="iconfont icon-shoucang"></i>
+                        默认分组
+                    </a>
+                </div>
+            </div>
+            <div class="col-9 ">
+                <div class="tab-content card" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-all" role="tabpanel" aria-labelledby="v-pills-all-tab">
+                        <h2>全部关注</h2>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-veryLike" role="tabpanel" aria-labelledby="v-pills-veryLike-tab">
+                        <h2>特别关心</h2>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-secretly" role="tabpanel" aria-labelledby="v-pills-secretly-tab">
+                        <h2>悄悄关注</h2>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-default" role="tabpanel" aria-labelledby="v-pills-default-tab">
+                        <h2>默认分组</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

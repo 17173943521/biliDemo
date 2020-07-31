@@ -1,0 +1,174 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+   
+</style>
+<script>
+    $(function () {
+        GetTypeAll();
+
+
+
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 200) {
+                $('#TopShow').fadeIn(1000);
+            } else {
+                $('#TopShow').fadeOut(1000);
+            }
+        })
+    })
+</script>
+
+
+<div id="list-example" class="list-group myfloat border" name="myListExample">
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-10">
+        <div class="row">
+            <div class="col-3">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="bi-round">
+                                <i class="bi-text-white iconfont icon-shouyeweixuanzhong"></i>
+                            </div>
+                            <span class="bi-size-13">首页</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+
+                            <div class="bi-round bi-bg-yel">
+                                <i class="bi-text-white iconfont icon-dongtaiweixuanzhong"></i>
+                            </div>
+                            <span class="bi-size-13">动态</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="bi-round bi-bg-blue">
+                                <i class="bi-text-white iconfont icon-paihangbang"></i>
+                            </div>
+                            <span class="bi-size-13">排行榜</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="bi-round bi-bg-channel">
+                                <i class="bi-text-white iconfont icon-fenquweixuanzhong"></i>
+                            </div>
+                            <span class="bi-size-13">频道</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6" id="homeTypeList">
+
+            </div>
+            <div class="col-3">
+                <nav class="nav">
+                    <a class="nav-link">
+                        <span></span>
+                    </a>
+                    <a class="nav-link">
+                        <span></span>
+                    </a>
+                    <a class="nav-link">
+                        <span></span>
+                    </a>
+                </nav>
+                <nav class="nav">
+                    <a class="nav-link">
+                        <span></span>
+                    </a>
+                    <a class="nav-link">
+                        <span></span>
+                    </a>
+                    <a class="nav-link">
+                        <span></span>
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+        <div style="background-color:aquamarine;height:100px;">
+            <h1>热门</h1>
+        </div>
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example row" id="homeTypeDetail">
+        </div>
+
+
+
+    </div>
+</div>
+
+@*<nav class="nav">
+        <a class="nav-link" href="#">
+            <span>动画</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>音乐</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>舞蹈</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>知识</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>动画</span>
+
+        </a>
+        <a class="nav-link" href="#">
+            <span>音乐</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>舞蹈</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>知识</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>动画</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>音乐</span>
+        </a>
+    </nav>
+    <nav class="nav">
+        <a class="nav-link" href="#">
+            <span>动画</span>
+
+        </a>
+        <a class="nav-link" href="#">
+            <span>音乐</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>舞蹈</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>知识</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>动画</span>
+
+        </a>
+        <a class="nav-link" href="#">
+            <span>音乐</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>舞蹈</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>知识</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>动画</span>
+        </a>
+        <a class="nav-link" href="#">
+            <span>音乐</span>
+        </a>
+    </nav>*@

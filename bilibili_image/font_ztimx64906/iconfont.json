@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6260317",
+      "name": "已关注",
+      "font_class": "yiguanzhu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "9874492",
+      "name": "KHCFDC_关注",
+      "font_class": "guanzhu",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "12296964",
+      "name": "我们  团队",
+      "font_class": "womentuandui",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "13479157",
+      "name": "关注",
+      "font_class": "B",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "15634311",
+      "name": "闭眼",
+      "font_class": "biyan",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    }
+  ]
+}

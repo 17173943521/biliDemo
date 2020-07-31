@@ -1,0 +1,333 @@
+﻿
+/*最小高度*/
+.bi-minheight {
+    min-height: 400px;
+}
+
+/*左右上下 移动*/
+.bi-ml-10 {
+    margin-left: 10px;
+}
+
+.bi-mr-10 {
+    margin-right: 10px;
+}
+
+.bi-mt-10 {
+    margin-top: 10px;
+}
+
+.bi-mb-10 {
+    margin-bottom: 10px;
+}
+
+.bi-ml-15 {
+    margin-left: 15px;
+}
+
+.bi-mr-15 {
+    margin-right: 15px;
+}
+
+.bi-mt-15 {
+    margin-top: 15px;
+}
+
+.bi-mb-15 {
+    margin-bottom: 15px;
+}
+
+.bi-ml-20 {
+    margin-left: 20px;
+}
+
+.bi-mr-20 {
+    margin-right: 20px;
+}
+
+.bi-mt-20 {
+    margin-top: 20px;
+}
+
+.bi-mb-20 {
+    margin-bottom: 20px;
+}
+
+.bi-mt-30 {
+    margin-top: 30px;
+}
+
+.bi-ml-50 {
+    margin-left: 50px;
+}
+
+.bi-ml-80 {
+    margin-left: 80px;
+}
+.bi-mt-50 {
+    margin-top: 50px;
+}
+
+.bi-mt-60 {
+    margin-top: 60px;
+}
+
+.bi-mt-80 {
+    margin-top: 80px;
+}
+
+.bi-mt-90 {
+    margin-top: 90px;
+}
+
+/*字体颜色*/
+.bi-text-white {
+    color: white;
+    font-size: 25px;
+    margin-left: 3px;
+}
+
+.bi-text-small {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #999;
+}
+
+.bi-text-headline {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* 字体大小 */
+.bi-size-13 {
+    font-size: 13px;
+}
+
+.bi-size-15 {
+    font-size: 15px;
+}
+
+.bi-size-20 {
+    font-size: 20px;
+}
+
+.bi-size-18 {
+    font-size: 18px;
+}
+
+.bi-size-10 {
+    font-size: 10px;
+}
+
+.bi-size-25 {
+    font-size: 25px;
+}
+
+.bili-text-26 {
+    font-size: 26px
+}
+
+.bili-text-20 {
+    font-size: 20px
+}
+
+/*背景颜色*/
+.bi-bg-yel {
+    background-color: #fcba2a;
+}
+
+.bi-bg-blue {
+    background-color: #00a1d6;
+}
+
+.bi-bg-channel {
+    background-color: #6dc781;
+}
+
+.bi-bg-w {
+    background-color: white;
+}
+
+/* 字体颜色 */
+.bi-text-black {
+    color: black;
+}
+
+/* icon font 自定义颜色 */
+.icon-shouyexuanzhong {
+    color: #00c091;
+}
+
+.icon-dongtaixuanzhong {
+    color: #fb7299;
+}
+
+.icon-bofangqi-bofangxiaodianshi {
+    color: #02b5da;
+}
+
+.icon-fenquxuanzhong {
+    color: #23c9ed;
+}
+
+.icon-yizhuifan {
+    color: #ff5d47;
+}
+
+.icon-shezhi1 {
+    color: #23c9ed;
+}
+
+.icon-shouyeweixuanzhong {
+}
+
+.icon-xiazaishibai {
+    color: #fd676f;
+    margin-right: 6px;
+}
+
+/* Logo */
+.bilibili-text {
+    color: #00a1d6;
+    font-size: 30px;
+}
+
+
+
+
+/*竖线  横线*/
+.bi-tab-line-itnl {
+    display: inline-block;
+    height: 46px;
+    border-left: 1px solid #e7e7e7;
+    margin: 0 20px;
+}
+
+.bi-round {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background: #ff5c7c;
+    border-radius: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto 4px;
+}
+
+.myfloat {
+    width: 50px;
+    height: 70vh;
+    position: fixed;
+    right: 80px;
+    top: 150px;
+}
+
+.myfloat-text {
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.yinying {
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.9) /*阴影出现在元素下方*/
+    /* -moz-box-shadow: 0px 0px 14px #333333;
+            -webkit-box-shadow: 0px 0px 14px #333333;
+            box-shadow: 0px 0px 14px #333333;*/
+    /* -moz-box-shadow: 0px 1px 20px #333333;
+            -webkit-box-shadow: 0px 1px 20px #333333;
+            box-shadow: 0px 1px 20px #333333;*/
+}
+
+
+
+
+
+
+
+
+.btn-tougao {
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #FB7299;
+    border-radius: 2px;
+    margin-left: 14px;
+}
+
+.user-helder {
+    background-image: url(http://localhost:54038/image/user_header.png);
+    background-repeat: no-repeat;
+    /*        background-size:cover;*/
+}
+
+.l-info {
+    width: 66px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-right: 1px solid #e5e9ef;
+    overflow: visible;
+    height: 143px;
+}
+
+.r-info {
+    border: 1px solid transparent;
+    margin-left: 197px;
+    background: #fff;
+    padding: 10px 0;
+    margin-right: 5px;
+    position: relative;
+}
+
+.history-red-round {
+    position: absolute;
+    right: -5px;
+    top: 48px;
+    border: 5px dashed #e5e9ef;
+    border-right-width: 0;
+    border-left-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.lastplay-time {
+    overflow: visible;
+    height: 120px;
+    font-size: 14px;
+}
+
+.TopShow {
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 10px;
+    display: none;
+    /*width: 30px;
+    height: 30px;
+    position: fixed;
+    line-height: 36px;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+    cursor: pointer;
+    text-align: center;*/
+}
+
+
+/* 历史记录 图标 icon */
+.b-icon-history {
+    background: url(http://localhost:54038/image/icons.png) -83px -850px no-repeat;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle
+}

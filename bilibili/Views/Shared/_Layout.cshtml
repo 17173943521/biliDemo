@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/font_icon/iconfont.css" rel="stylesheet" />
+    <title>@ViewData["Title"] - bilibili</title>
+
+    @* bootstrap *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/myCss.css" rel="stylesheet" />
+    <link href="~/cropper/cropper.css" rel="stylesheet" />
+    <link href="~/css/sitelogo.css" rel="stylesheet" />
+    @* vuejs *@
+    <script src="~/js/vue.js"></script>
+    @* JQuery *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @* bootstrap-js *@
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+
+    @* my-js *@
+    <script src="~/cropper/cropper.js"></script>
+    <script src="~/js/sitelogo.js"></script>
+    <script src="~/js/myCookie.js"></script>
+    <script src="~/js/myDefault.js"></script>
+</head>
+<body style="min-height:1500px;">
+
+    <div class="container-fluid">
+        @* 导航条 *@
+        <nav class="" style="background-color:white;color:black;">
+            <div class="row" style="margin-top:10px;">
+                @* 左侧 - Logo & 常用 *@
+                <div class="col-4">
+                    <div class="nav text-dark">
+                        <a href="/home/index"><i class="iconfont icon-bilibili bilibili-text"></i></a>
+                        <a class="nav-link" href="/Home/Index">主站</a>
+                        <a class="nav-link" href="/Home/Index">番剧</a>
+                        <a class="nav-link" href="/Home/Index">直播</a>
+                        <a class="nav-link" href="/Home/Index">会员购</a>
+                        <a class="nav-link" href="/Home/Index">漫画</a>
+                    </div>
+                </div>
+                @* 左侧 - Logo & 常用 底 *@
+
+                @* 中间 - 搜索 *@
+                <div class="col-4">
+                    <div class="nav justify-content-end">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="iconfont icon-sousuo"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @* 中间 - 搜索 底 *@
+
+                @* 右侧 - 个人中心 *@
+                <div class="col-4">
+                    <div id="uLogin" class="nav justify-content-end text-dark"></div>
+                </div>
+                @* 右侧 - 个人中心 底 *@
+            </div>
+        </nav>
+        @* 导航条 底 *@
+
+        @* 内容 *@
+        <div class="bg-light">
+            @RenderBody()
+        </div>
+        @* 内容 *@
+    </div>
+</body>
+</html>
